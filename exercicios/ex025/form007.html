@@ -11,7 +11,7 @@
     <form action="cadastro.php" method="get" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
-            <select name="estado" id="iest">
+            <select name="estado" id="iest" required>
 
                 <option value="" selected>---Escolha---</option>
                 <optgroup label="Região Sudeste">
@@ -32,7 +32,7 @@
 
         <p>
             <label for="iprof">Profissão</label>
-            <input type="text" name="prof" id="iprof" list="lstprof">
+            <input type="text" name="prof" id="iprof" list="lstprof" required>
             <datalist id="lstprof">
                 <option >Administrador</option>
                 <option >Contabilista</option>
